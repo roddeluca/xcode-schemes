@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+//#if DEBUG
+//let kBaseURL = "http://google.com"
+//#endif
+//
+//#if STAGING
+//let kBaseURL = "http://campanasucia.com"
+//#endif
+//
+//#if PROD
+//let kBaseURL = "http://clarinmiente.com"
+//#endif
+

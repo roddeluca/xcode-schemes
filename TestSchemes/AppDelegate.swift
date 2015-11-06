@@ -20,6 +20,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         let navigationController = splitViewController.viewControllers[splitViewController.viewControllers.count-1] as! UINavigationController
         navigationController.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem()
         splitViewController.delegate = self
+
+        #if DEBUG
+            let kBaseURL = "http://google.com"
+            print("\(kBaseURL)")
+        #endif
+
+        #if STAGING
+            let kBaseURL = "http://campanasucia.com"
+            print("\(kBaseURL)")
+        #endif
+
+        #if PROD
+            let kBaseURL = "http://clarinmiente.com"
+            print("\(kBaseURL)")
+        #endif
+
         return true
     }
 
