@@ -2,7 +2,7 @@
 
 Many times we have differents urls based on the environment that we are working on. So in this case, we can define differents `schemes` to run the app with the correct environment.
 
-###Imporant: This works with AppDelegate that contains `@UIApplicationMain` annotation
+###Important: This works with AppDelegate that contains `@UIApplicationMain` annotation
 ![](images/app-delegate.png "App Delegate")
 
 
